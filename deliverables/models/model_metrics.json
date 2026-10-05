@@ -1,0 +1,549 @@
+{
+  "supervised_benchmark": {
+    "Logistic Regression": {
+      "accuracy": 0.571,
+      "precision_macro": 0.5212,
+      "recall_macro": 0.4929,
+      "f1_macro": 0.5002,
+      "f1_weighted": 0.5572,
+      "roc_auc_macro": 0.7282,
+      "cv_f1_mean": 0.501,
+      "cv_f1_std": 0.0134,
+      "training_time_sec": 1.827,
+      "inference_latency_ms": 0.001,
+      "confusion_matrix": [
+        [
+          387,
+          97,
+          16
+        ],
+        [
+          175,
+          137,
+          38
+        ],
+        [
+          24,
+          79,
+          47
+        ]
+      ],
+      "classification_report": {
+        "Low": {
+          "precision": 0.6604095563139932,
+          "recall": 0.774,
+          "f1-score": 0.712707182320442,
+          "support": 500.0
+        },
+        "Moderate": {
+          "precision": 0.43769968051118213,
+          "recall": 0.3914285714285714,
+          "f1-score": 0.4132730015082956,
+          "support": 350.0
+        },
+        "Viral": {
+          "precision": 0.46534653465346537,
+          "recall": 0.31333333333333335,
+          "f1-score": 0.3745019920318725,
+          "support": 150.0
+        },
+        "accuracy": 0.571,
+        "macro avg": {
+          "precision": 0.5211519238262136,
+          "recall": 0.492920634920635,
+          "f1-score": 0.50016072528687,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.5532016465339302,
+          "recall": 0.571,
+          "f1-score": 0.5571744404929052,
+          "support": 1000.0
+        }
+      },
+      "top_feature_importance": {
+        "tfidf_year": 0.8041767790977898,
+        "media_type_Text": 0.5749415478144776,
+        "tfidf_benchmark": 0.5360809874363933,
+        "tfidf_office": 0.5336259566056228,
+        "tfidf_hours": 0.48407122787775575,
+        "tfidf_mustwatch": 0.4816016638463749,
+        "tfidf_unbelievable": 0.47838630539363375,
+        "tfidf_gamerlife": 0.4718362066682755,
+        "tfidf_cloudcomputing": 0.4685628108629727,
+        "sentiment_subjectivity": 0.45627902923440383,
+        "tfidf_future": 0.4495964490618281,
+        "tfidf_moviereview": 0.44769846793915646,
+        "media_type_Video": 0.4424333155510916,
+        "tfidf_esports": 0.43815322765188425,
+        "tfidf_milestone": 0.4221021314536422,
+        "tfidf_artificialintelligence": 0.41901398067646506,
+        "tfidf_high": 0.40443046836956303,
+        "tfidf_final": 0.403235386666216,
+        "tfidf_longevity": 0.39753251174993204,
+        "tfidf_legendary": 0.39621337343025137
+      }
+    },
+    "Support Vector Machine (SVM)": {
+      "accuracy": 0.543,
+      "precision_macro": 0.4908,
+      "recall_macro": 0.4587,
+      "f1_macro": 0.4657,
+      "f1_weighted": 0.5296,
+      "roc_auc_macro": 0.717,
+      "cv_f1_mean": 0.4739,
+      "cv_f1_std": 0.0105,
+      "training_time_sec": 16.092,
+      "inference_latency_ms": 0.697,
+      "confusion_matrix": [
+        [
+          369,
+          119,
+          12
+        ],
+        [
+          175,
+          137,
+          38
+        ],
+        [
+          30,
+          83,
+          37
+        ]
+      ],
+      "classification_report": {
+        "Low": {
+          "precision": 0.6428571428571429,
+          "recall": 0.738,
+          "f1-score": 0.6871508379888268,
+          "support": 500.0
+        },
+        "Moderate": {
+          "precision": 0.40412979351032446,
+          "recall": 0.3914285714285714,
+          "f1-score": 0.397677793904209,
+          "support": 350.0
+        },
+        "Viral": {
+          "precision": 0.42528735632183906,
+          "recall": 0.24666666666666667,
+          "f1-score": 0.31223628691983124,
+          "support": 150.0
+        },
+        "accuracy": 0.543,
+        "macro avg": {
+          "precision": 0.4907580975631021,
+          "recall": 0.45869841269841266,
+          "f1-score": 0.46568830627095564,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.5266671026054609,
+          "recall": 0.543,
+          "f1-score": 0.5295980898988611,
+          "support": 1000.0
+        }
+      },
+      "top_feature_importance": {}
+    },
+    "Random Forest": {
+      "accuracy": 0.562,
+      "precision_macro": 0.5394,
+      "recall_macro": 0.4578,
+      "f1_macro": 0.4642,
+      "f1_weighted": 0.5374,
+      "roc_auc_macro": 0.7195,
+      "cv_f1_mean": 0.4453,
+      "cv_f1_std": 0.0105,
+      "training_time_sec": 0.889,
+      "inference_latency_ms": 0.027,
+      "confusion_matrix": [
+        [
+          391,
+          100,
+          9
+        ],
+        [
+          193,
+          144,
+          13
+        ],
+        [
+          41,
+          82,
+          27
+        ]
+      ],
+      "classification_report": {
+        "Low": {
+          "precision": 0.6256,
+          "recall": 0.782,
+          "f1-score": 0.6951111111111111,
+          "support": 500.0
+        },
+        "Moderate": {
+          "precision": 0.44171779141104295,
+          "recall": 0.4114285714285714,
+          "f1-score": 0.4260355029585799,
+          "support": 350.0
+        },
+        "Viral": {
+          "precision": 0.5510204081632653,
+          "recall": 0.18,
+          "f1-score": 0.271356783919598,
+          "support": 150.0
+        },
+        "accuracy": 0.562,
+        "macro avg": {
+          "precision": 0.5394460665247695,
+          "recall": 0.45780952380952383,
+          "f1-score": 0.46416779932976304,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.5500542882183548,
+          "recall": 0.562,
+          "f1-score": 0.5373714991789982,
+          "support": 1000.0
+        }
+      },
+      "top_feature_importance": {
+        "sentiment_subjectivity": 0.061287619691400744,
+        "log_author_followers": 0.0597478449877287,
+        "sentiment_polarity": 0.046601160002994524,
+        "media_type_Text": 0.040552067079824096,
+        "media_type_Video": 0.03984839859678985,
+        "hour_sin": 0.03217397834945338,
+        "char_count": 0.02850070323841323,
+        "hour_cos": 0.028433220680537503,
+        "platform_Instagram": 0.02042299361058331,
+        "day_sin": 0.020392994625970856,
+        "day_cos": 0.015296808923397652,
+        "word_count": 0.015124923037960617,
+        "hashtag_count": 0.010999657182453887,
+        "media_type_Image": 0.01074286372014236,
+        "tfidf_record": 0.010343977444546225,
+        "platform_LinkedIn": 0.009396201779957432,
+        "exclamation_count": 0.008831206921634737,
+        "tfidf_high": 0.0072404358444922694,
+        "tfidf_moviereview": 0.007043503872102409,
+        "tfidf_unbelievable": 0.006878962344937211
+      }
+    },
+    "Gradient Boosting": {
+      "accuracy": 0.548,
+      "precision_macro": 0.4969,
+      "recall_macro": 0.4728,
+      "f1_macro": 0.48,
+      "f1_weighted": 0.5407,
+      "roc_auc_macro": 0.7227,
+      "cv_f1_mean": 0.4979,
+      "cv_f1_std": 0.0123,
+      "training_time_sec": 15.261,
+      "inference_latency_ms": 0.01,
+      "confusion_matrix": [
+        [
+          354,
+          125,
+          21
+        ],
+        [
+          159,
+          153,
+          38
+        ],
+        [
+          25,
+          84,
+          41
+        ]
+      ],
+      "classification_report": {
+        "Low": {
+          "precision": 0.6579925650557621,
+          "recall": 0.708,
+          "f1-score": 0.6820809248554913,
+          "support": 500.0
+        },
+        "Moderate": {
+          "precision": 0.42265193370165743,
+          "recall": 0.43714285714285717,
+          "f1-score": 0.4297752808988764,
+          "support": 350.0
+        },
+        "Viral": {
+          "precision": 0.41,
+          "recall": 0.2733333333333333,
+          "f1-score": 0.328,
+          "support": 150.0
+        },
+        "accuracy": 0.548,
+        "macro avg": {
+          "precision": 0.49688149958580646,
+          "recall": 0.4728253968253968,
+          "f1-score": 0.4799520685847893,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.5384244593234611,
+          "recall": 0.548,
+          "f1-score": 0.5406618107423524,
+          "support": 1000.0
+        }
+      },
+      "top_feature_importance": {
+        "sentiment_subjectivity": 0.13541880353977603,
+        "log_author_followers": 0.11458096092929866,
+        "media_type_Video": 0.06583949844190551,
+        "media_type_Text": 0.05382779012162191,
+        "hour_sin": 0.04982555860753694,
+        "hour_cos": 0.04750686837970022,
+        "char_count": 0.025431051274652422,
+        "platform_Instagram": 0.022359600411571277,
+        "day_sin": 0.012796206551164532,
+        "tfidf_moviereview": 0.01035775942168878,
+        "platform_LinkedIn": 0.009477316838358086,
+        "tfidf_futuretech": 0.009387253382601735,
+        "tfidf_worldrecord": 0.009365120850980227,
+        "tfidf_viral": 0.008247796856210049,
+        "tfidf_esports": 0.008166633599254609,
+        "exclamation_count": 0.008029630738308846,
+        "sentiment_polarity": 0.007965524179014602,
+        "day_cos": 0.007908665944108778,
+        "tfidf_benchmark": 0.007745730234573614,
+        "tfidf_mustwatch": 0.0076548525986479985
+      }
+    },
+    "Multi-Layer Perceptron (MLP)": {
+      "accuracy": 0.547,
+      "precision_macro": 0.4814,
+      "recall_macro": 0.4392,
+      "f1_macro": 0.4372,
+      "f1_weighted": 0.5116,
+      "roc_auc_macro": 0.7169,
+      "cv_f1_mean": 0.4666,
+      "cv_f1_std": 0.0166,
+      "training_time_sec": 0.667,
+      "inference_latency_ms": 0.001,
+      "confusion_matrix": [
+        [
+          415,
+          73,
+          12
+        ],
+        [
+          220,
+          103,
+          27
+        ],
+        [
+          43,
+          78,
+          29
+        ]
+      ],
+      "classification_report": {
+        "Low": {
+          "precision": 0.612094395280236,
+          "recall": 0.83,
+          "f1-score": 0.7045840407470289,
+          "support": 500.0
+        },
+        "Moderate": {
+          "precision": 0.40551181102362205,
+          "recall": 0.29428571428571426,
+          "f1-score": 0.34105960264900664,
+          "support": 350.0
+        },
+        "Viral": {
+          "precision": 0.4264705882352941,
+          "recall": 0.19333333333333333,
+          "f1-score": 0.26605504587155965,
+          "support": 150.0
+        },
+        "accuracy": 0.547,
+        "macro avg": {
+          "precision": 0.4813589315130507,
+          "recall": 0.43920634920634916,
+          "f1-score": 0.43723289642253166,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.5119469197336798,
+          "recall": 0.547,
+          "f1-score": 0.5115711381814007,
+          "support": 1000.0
+        }
+      },
+      "top_feature_importance": {}
+    }
+  },
+  "unsupervised_topics": {
+    "Topic #1": {
+      "keywords": [
+        "completely",
+        "open",
+        "championship",
+        "benchmark",
+        "isn",
+        "weights",
+        "model",
+        "learning",
+        "futuretech",
+        "datascience"
+      ],
+      "top_weights": [
+        294.79,
+        208.63,
+        207.76,
+        202.67,
+        196.25,
+        195.83,
+        190.46,
+        179.97,
+        176.97,
+        159.69
+      ]
+    },
+    "Topic #2": {
+      "keywords": [
+        "day",
+        "office",
+        "record",
+        "looks",
+        "stunning",
+        "compared",
+        "cheap",
+        "effects",
+        "practical",
+        "talk"
+      ],
+      "top_weights": [
+        238.75,
+        210.34,
+        179.87,
+        155.62,
+        155.6,
+        155.6,
+        155.6,
+        155.6,
+        155.6,
+        155.6
+      ]
+    },
+    "Topic #3": {
+      "keywords": [
+        "bitcoin",
+        "investing",
+        "update",
+        "hyper",
+        "bull",
+        "economy",
+        "stockmarket",
+        "wealthmanagement",
+        "trading",
+        "crypto"
+      ],
+      "top_weights": [
+        280.41,
+        241.42,
+        217.5,
+        211.06,
+        197.78,
+        182.63,
+        168.81,
+        149.74,
+        149.31,
+        149.26
+      ]
+    },
+    "Topic #4": {
+      "keywords": [
+        "just",
+        "leadership",
+        "high",
+        "performance",
+        "futureofwork",
+        "businessstrategy",
+        "productivity",
+        "startupgrowth",
+        "remotework",
+        "biggest"
+      ],
+      "top_weights": [
+        289.32,
+        219.16,
+        200.63,
+        199.18,
+        147.11,
+        142.37,
+        132.97,
+        132.52,
+        131.65,
+        122.99
+      ]
+    },
+    "Topic #5": {
+      "keywords": [
+        "records",
+        "breaks",
+        "million",
+        "viewers",
+        "live",
+        "world",
+        "championship",
+        "esports",
+        "decade",
+        "longevity"
+      ],
+      "top_weights": [
+        226.57,
+        226.57,
+        226.55,
+        226.55,
+        226.55,
+        213.77,
+        202.35,
+        202.31,
+        201.05,
+        196.69
+      ]
+    },
+    "Topic #6": {
+      "keywords": [
+        "original",
+        "major",
+        "viral",
+        "truth",
+        "time",
+        "tech",
+        "beat",
+        "problem",
+        "portfolio",
+        "right"
+      ],
+      "top_weights": [
+        212.09,
+        207.69,
+        129.11,
+        120.33,
+        120.33,
+        120.33,
+        120.32,
+        120.32,
+        120.32,
+        120.32
+      ]
+    }
+  },
+  "target_classes": [
+    "Low",
+    "Moderate",
+    "Viral"
+  ],
+  "num_train_samples": 4000,
+  "num_test_samples": 1000,
+  "num_features": 278,
+  "timestamp": "2026-10-05 00:01:50"
+}

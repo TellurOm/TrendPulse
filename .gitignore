@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# System & IDE files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Temporary raw screenshots folder (organized in screenshots/)
+Scs/
+
+# Zipped bundle (generated on demand via zip command)
+deliverables.zip
