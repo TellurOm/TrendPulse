@@ -19,5 +19,8 @@ __pycache__/
 # Temporary raw screenshots folder (organized in screenshots/)
 Scs/
 
-# Zipped bundle (generated on demand via zip command)
+# Zipped bundles
 deliverables.zip
+TrendPulse.zip
+*.zip
+
